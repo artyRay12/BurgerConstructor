@@ -5,7 +5,7 @@ import classes from "./SideDrawer.module.css";
 import Aux from "../../../hoc/Auxiliary";
 import Backdrop from "../../UI/Backdrop/Backdrop";
 
-const SideDrawer = ({ close, isOpen }) => {
+const SideDrawer = ({ close, isOpen, pis }) => {
     const attachedClasses = [
         classes.SideDrawer,
         !isOpen ? classes.Close : classes.Open,
