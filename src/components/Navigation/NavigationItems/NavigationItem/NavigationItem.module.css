@@ -16,6 +16,10 @@
     display: block;
 }
 
+.active {
+    background-color: #8f5cfc;;
+}
+
 .NavigationItem a:hover,
 .NavigationItem a:active,
 .NavigationItem a.active {
